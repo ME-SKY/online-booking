@@ -1,0 +1,47 @@
+.booking-form {
+    min-height: 600px;
+}
+
+.city, .date-and-time, .user-number, .user-name{
+    min-height: 80px;
+    border: 1px solid black;
+    /*background: rgba(22, 20, 18, 0.33);*/
+}
+
+.date-and-time{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-booking-info{
+    min-height: 50px;
+}
+
+
+/* ant-d override styles */
+
+/* cascader override styles */
+.ant-cascader-menu{
+    width: 350px;
+    height: fit-content !important;
+}
+
+.anticon{
+    background: #e8e8e8 !important;
+}
+
+.ant-picker-range-separator{
+    /*content: "-" !important;*/
+    /*align-items: center!important;*/
+    padding: 0 !important;
+    line-height: 1;
+}
+
+/*.ant-picker-separator{*/
+    /*display: none !important;*/
+/*}*/
+
+
+
